@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 数字的背景颜色 -->
+<resources>
+    <color name="bg_0">#FFF</color>
+    <color name="bg_2">#FFF7BC</color>
+    <color name="bg_4">#FFF836</color>
+    <color name="bg_8">#D2FF1D</color>
+    <color name="bg_16">#FFBD87</color>
+    <color name="bg_32">#FF8127</color>
+    <color name="bg_64">#FE5F5F</color>
+    <color name="bg_128">#FF0400</color>
+    <color name="bg_256">#A4FF67</color>
+    <color name="bg_512">#6AFF00</color>
+    <color name="bg_1024">#75FFEE</color>
+    <color name="bg_2048">#4EDEFF</color>
+    <color name="bg_4096">#478AFF</color>
+    <color name="bg_8192">#DC5CFF</color>
+    <color name="bg_16384">#F700FF</color>
+    <color name="bg_default">#A90006</color>
+</resources>

@@ -1,0 +1,120 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_128" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp" >
+		<TextView
+            android:id="@+id/tv_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="@string/about"
+            android:textColor="#fff"
+            android:textSize="60sp" />
+
+		<TextView
+		    android:id="@+id/tv_author"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@+id/tv_about"
+		    android:layout_centerHorizontal="true"
+		    android:layout_marginTop="20sp"
+		    android:text="@string/author"
+		    android:textColor="@color/bg_32"
+		    android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/tv_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_author"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5sp"
+            android:autoLink="all"
+            android:text="@string/mail"
+            android:textColor="@color/bg_4096"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/tv_teacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_stxy"
+            android:layout_below="@+id/tv_mail"
+            android:layout_centerHorizontal="true"
+            android:text="@string/teacher"
+            android:layout_marginTop="5sp"
+            android:textSize="17sp" 
+            android:textColor="@color/bg_8"/>
+        
+        <TextView
+            android:id="@+id/tv_stxy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_teacher"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5sp"
+            android:text="@string/stxy"
+            android:textColor="@color/bg_8192"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/tv_major"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_stxy"
+            android:layout_below="@+id/tv_stxy"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5sp"
+            android:text="@string/major"
+            android:textColor="@color/bg_512"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/tv_about"
+            android:text="◤"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/tv_about"
+            android:text="◥"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tv_major"
+            android:layout_marginTop="15dp"
+            android:text="◢"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView4"
+            android:layout_alignBottom="@+id/textView4"
+            android:layout_alignParentLeft="true"
+            android:text="◣"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </RelativeLayout>
+    
+</FrameLayout>

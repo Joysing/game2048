@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">2048游戏</string>
+    <string name="nowscore">当前最高</string>
+    <string name="maxscore">历史最高</string>
+    <string name="restart">重新开始</string>
+    <string name="select">选择难度</string>
+    <string name="action_settings">Settings</string>
+    <string name="stxy">广州大学松田学院</string>
+    <string name="major">智能终端软件开发</string>
+    <string name="about">About</string>
+    <string name="author">Author：Joysing</string>
+    <string name="mail">E-Mail：im@joysing.cc</string>
+    <string name="teacher">指导老师：周贵华</string>
+
+</resources>

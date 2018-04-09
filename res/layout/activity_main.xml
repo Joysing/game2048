@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_margin"
+    tools:context="com.example.game2048.MainActivity" >
+
+    <!-- 分数显示 -->
+	<TextView
+        android:id="@+id/main_history_max"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout2"
+        android:layout_alignRight="@+id/linearLayout2"
+        android:background="@drawable/shape_score_bg"
+        android:text="@string/maxscore" />
+	
+    <!-- 两个按钮 -->
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_curr_max"
+        android:layout_marginTop="10dp" >
+
+        <Button
+            android:id="@+id/main_restart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="7dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_bt_bg"
+            android:text="@string/restart"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/main_select"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_bt_bg"
+            android:text="@string/select"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+    
+    <!-- 游戏面板 -->
+    <GridLayout
+        android:id="@+id/main_broad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shape_broad_bg" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:text="2048"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40sp" 
+        android:textColor="@android:color/white"
+        android:background="@drawable/shape_2048_bg"/>
+
+    <TextView
+        android:id="@+id/main_curr_max"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout2"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_score_bg"
+        android:text="@string/nowscore" />
+
+</RelativeLayout>

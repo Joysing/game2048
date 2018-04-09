@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 这个是分数显示那两块地方的背景配置文件 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <corners android:radius="8dp"/><!-- 8dp圆角 -->
+	<stroke android:color="#fcf154"
+	    android:width="2dp"/><!-- 金黄色2dp的边框 -->
+	<solid android:color="@android:color/white"/><!-- 填充颜色白色 -->
+	<padding 
+	    android:left="15dp"
+	    android:top="10dp"
+	    android:right="15dp"
+	    android:bottom="10dp"/><!-- 外边距 -->
+</shape>

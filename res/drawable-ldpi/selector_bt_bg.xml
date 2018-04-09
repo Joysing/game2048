@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 按钮的背景图配置 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 没有按下按钮时，样式配置如下 -->
+    <item android:state_pressed="false">
+        <shape>
+            <!-- 圆角，渐变，旋转90°使左右渐变to上下渐变 -->
+            <corners android:radius="8dp"/>
+            <gradient android:startColor="#3FB8F1"
+                android:endColor="#3FB8F1"
+                android:angle="90"/>
+        </shape>
+    </item>
+    <!-- 按下按钮时，样式配置如下 -->
+	<item android:state_pressed="true">
+        <shape>
+            <!-- 渐变颜色比上面的深一点点-->
+            <corners android:radius="8dp"/>
+            <gradient android:startColor="#0093ff"
+                android:endColor="#30a5fa"
+                android:angle="90"/>
+        </shape>
+    </item>
+</selector>

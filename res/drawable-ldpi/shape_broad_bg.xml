@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 方格面板的背景配置 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 边框 -->
+    <stroke android:color="#2b7fff"
+        android:width="@dimen/divider"/>
+	<solid android:color="#aaa"/>
+</shape>
